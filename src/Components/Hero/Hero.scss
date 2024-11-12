@@ -1,0 +1,36 @@
+.hero1{
+   background-color: lightgreen;
+   
+   
+   
+   }
+   
+   
+   .hero2{
+   background-color: lightcoral;
+   
+   }
+   
+   .hero{
+      height: 100dvh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:nth-child(odd){
+         background-color: lemonchiffon;
+      }
+
+      &:nth-child(even){
+         background-color: lightseagreen;
+      }
+   
+      &__title {
+         font-size: 35px;
+   letter-spacing: 2px;
+   
+   
+   
+   
+      }
+   }
